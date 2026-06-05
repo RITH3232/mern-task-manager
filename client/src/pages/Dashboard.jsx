@@ -439,6 +439,14 @@ const Dashboard = () => {
             style={{ width: "100%", marginBottom: "10px", padding: "8px", borderRadius: "5px", border: `1px solid ${theme.border}`, backgroundColor: theme.bg, color: theme.text }}
           />
 
+          <textarea
+            placeholder="Description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+            rows={3}
+            style={{ width: "100%", marginBottom: "10px", padding: "8px", borderRadius: "5px", border: `1px solid ${theme.border}`, backgroundColor: theme.bg, color: theme.text, resize: "none" }}
+          />
+
           <input
             type="date"
             value={dueDate}
@@ -670,6 +678,7 @@ const Dashboard = () => {
                         onClick={() => {
                           setEditingId(task._id);
                           setTitle(task.title);
+                          setDescription(task.description || "");
                           setPriority(task.priority);
                           setDueDate(
                             task.dueDate ? task.dueDate.split("T")[0] : "",
