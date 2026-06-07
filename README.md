@@ -1,18 +1,18 @@
-# 🚀 TaskCluster AI
+#TaskCluster AI
 
 A modern MERN Stack Task Management Application featuring JWT Authentication, Kanban Workflow Management, Analytics Dashboard, AI Productivity Assistant, Dark Mode, and User-Specific Task Tracking.
 
 ---
 
-## 📌 Features
+##Features
 
-### 🔐 Authentication
+###Authentication
 - User Registration & Login
 - JWT Authentication
 - Protected Routes
 - Password Hashing using bcryptjs
 
-### 📋 Task Management
+### Task Management
 - Create Tasks
 - Update Tasks
 - Delete Tasks
@@ -21,7 +21,7 @@ A modern MERN Stack Task Management Application featuring JWT Authentication, Ka
 - User-Specific Tasks
 - Search & Filter Tasks
 
-### 📊 Dashboard Analytics
+###  Dashboard Analytics
 - Total Tasks
 - Pending Tasks
 - Completed Tasks
@@ -29,22 +29,22 @@ A modern MERN Stack Task Management Application featuring JWT Authentication, Ka
 - Overdue Tasks
 - Completion Percentage
 
-### 📈 Visual Analytics
+###  Visual Analytics
 - Status Distribution Pie Chart
 - Priority Distribution Bar Chart
 - Real-Time Task Statistics
 
-### 🎯 Kanban Workflow
+###  Kanban Workflow
 - Pending
 - In Progress
 - Completed
 
-### 🤖 AI Productivity Assistant
+###  AI Productivity Assistant
 - Task Breakdown Generator
 - Priority Suggestion Engine
 - Daily Planner Generator
 
-### 🎨 UI Features
+###  UI Features
 - Responsive Design
 - Dark Mode / Light Mode
 - Toast Notifications
@@ -52,7 +52,7 @@ A modern MERN Stack Task Management Application featuring JWT Authentication, Ka
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React.js
@@ -71,7 +71,7 @@ A modern MERN Stack Task Management Application featuring JWT Authentication, Ka
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 ## Registration Page
 
@@ -109,7 +109,7 @@ A modern MERN Stack Task Management Application featuring JWT Authentication, Ka
 
 ---
 
-# 🤖 AI Productivity Assistant
+#  AI Productivity Assistant
 
 ### Task Breakdown Generator
 
@@ -150,13 +150,13 @@ High Priority
 
 Automatically schedules:
 
-- 🌞 Morning → High Priority Tasks
-- 🌤 Afternoon → Medium Priority Tasks
-- 🌙 Evening → Low Priority Tasks
+-  Morning → High Priority Tasks
+-  Afternoon → Medium Priority Tasks
+-  Evening → Low Priority Tasks
 
 ---
 
-# 📂 Project Structure
+#Project Structure
 
 ```text
 mern-task-manager
@@ -180,7 +180,7 @@ mern-task-manager
 
 ---
 
-# ⚙️ Installation
+#Installation
 
 ## Clone Repository
 
@@ -207,7 +207,7 @@ npm run dev
 
 ---
 
-# 🔑 Environment Variables
+# Environment Variables
 
 ### Server (.env)
 
@@ -227,7 +227,7 @@ VITE_API_URL=http://localhost:5000/api
 
 ---
 
-# ✨ Future Enhancements
+#Future Enhancements
 
 - AI Chat Assistant
 - Team Collaboration
@@ -238,7 +238,7 @@ VITE_API_URL=http://localhost:5000/api
 
 ---
 
-# 👩‍💻 Author
+#Author
 
 ### Rithika V
 
@@ -246,6 +246,6 @@ MERN Stack Developer
 
 ---
 
-# 📜 License
+#License
 
 MIT License
